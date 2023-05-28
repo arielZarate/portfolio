@@ -1,6 +1,7 @@
 import React from "react";
 
 import { FcNext } from "react-icons/fc";
+import { FaDownload } from "react-icons/fa";
 import styled from "styled-components";
 import Skill from "../Skill/Skill";
 
@@ -58,7 +59,7 @@ export default function Abouts() {
                 <ul>
                   <li>
                     <FcNext className="mr-2 mt-1" />
-                    <strong>Grado developer:</strong>{" "}
+                    <strong>Grado developer:</strong>
                     <span>Junior/Semisenior</span>
                   </li>
                   <li>
@@ -115,13 +116,7 @@ export default function Abouts() {
                   download
                   className="flex items-center justify-center w-40 h-12 bg-blue-700 text-white rounded-md hover:bg-red-600 mt-5 ml-10"
                 >
-                  <svg
-                    className="w-4 h-4 mr-2"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M12 13.414V3h2v10.414l2.793-2.793L18.207 12l-5.5 5.5L7.707 12l1.5-1.5z" />
-                  </svg>
+                  <FaDownload className="text-white text-md" />
                   <span className="ml-1">Descargar CV</span>
                 </a>
               </div>
