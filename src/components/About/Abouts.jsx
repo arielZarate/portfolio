@@ -3,6 +3,11 @@ import React from "react";
 import { FcNext } from "react-icons/fc";
 import styled from "styled-components";
 import Skill from "../Skill/Skill";
+
+//=========================
+
+import perfil from "../../assets/ariel.jpg";
+
 export default function Abouts() {
   return (
     <>
@@ -70,7 +75,7 @@ export default function Abouts() {
               <div className="mr-10">
                 <div className=" float-left">
                   <img
-                    src="src/assets/ariel.jpg"
+                    src={perfil}
                     className=" w-36 h-36 my-2 rounded-full"
                     alt=""
                     style={{

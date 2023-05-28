@@ -1,6 +1,13 @@
 import { Link } from "react-router-dom";
 import Footer from "../../Layout/Footer";
 
+//=====================================
+
+import videogames3 from "../../../assets/portfolio/Videogames/videogames3.png";
+import videogames from "../../../assets/portfolio/Videogames/videogames.png";
+import videogames6 from "../../../assets/portfolio/Videogames/videogames6.png";
+import landing from "../../../assets/portfolio/Videogames/landing.png";
+//=====================================
 export default function DetailGames() {
   return (
     <>
@@ -32,14 +39,14 @@ export default function DetailGames() {
             <div className="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
               <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
                 <img
-                  src="src/assets/portfolio/Videogames/videogames3.png"
+                  src={videogames3}
                   alt=""
                   className="h-full w-full object-cover object-center"
                 />
               </div>
               <div className="aspect-h-2 aspect-w-2 overflow-hidden rounded-lg">
                 <img
-                  src="src/assets/portfolio/Videogames/landing.png"
+                  src={landing}
                   alt=""
                   className="h-full w-full object-cover object-center"
                 />
@@ -47,7 +54,7 @@ export default function DetailGames() {
             </div>
             <div className="aspect-h-2 aspect-w-3 hidden overflow-hidden rounded-lg lg:block">
               <img
-                src="src/assets/portfolio/Videogames/videogames.png"
+                src={videogames}
                 alt=""
                 className="h-full w-full object-cover object-center"
               />
@@ -55,7 +62,7 @@ export default function DetailGames() {
 
             <div className="aspect-h-5 aspect-w-4 lg:aspect-h-4 lg:aspect-w-3 sm:overflow-hidden sm:rounded-lg">
               <img
-                src="src/assets/portfolio/Videogames/videogames6.png"
+                src={videogames6}
                 alt=""
                 className="h-full w-full object-cover object-center"
               />

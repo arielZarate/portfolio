@@ -1,5 +1,14 @@
 import { Link } from "react-router-dom";
 import Footer from "../../Layout/Footer";
+//===================================
+
+import mercadopago from "../../../assets/portfolio/ChicCloset/mercado_pago.png";
+import colaboradores from "../../../assets/portfolio/ChicCloset/colaboradores.png";
+import landing from "../../../assets/portfolio/ChicCloset/landing.png";
+import home from "../../../assets/portfolio/ChicCloset/home.png";
+
+//===================================
+
 export default function DetailChicCloset() {
   return (
     <>
@@ -31,14 +40,14 @@ export default function DetailChicCloset() {
             <div className="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
               <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
                 <img
-                  src="src/assets/portfolio/ChicCloset/mercado_pago.png"
+                  src={mercadopago}
                   alt=""
                   className="h-full w-full object-cover object-center"
                 />
               </div>
               <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
                 <img
-                  src="src/assets/portfolio/ChicCloset/colaboradores.png"
+                  src={colaboradores}
                   alt=""
                   className="h-full w-full object-cover object-center"
                 />
@@ -46,7 +55,7 @@ export default function DetailChicCloset() {
             </div>
             <div className="aspect-h-4 aspect-w-5 hidden overflow-hidden rounded-lg lg:block">
               <img
-                src="src/assets/portfolio/ChicCloset/landing.png"
+                src={landing}
                 alt=""
                 className="h-full w-full object-cover object-center"
               />
@@ -54,7 +63,7 @@ export default function DetailChicCloset() {
 
             <div className="aspect-h-5 aspect-w-4 lg:aspect-h-4 lg:aspect-w-3 sm:overflow-hidden sm:rounded-lg">
               <img
-                src="src/assets/portfolio/ChicCloset/home.png"
+                src={home}
                 alt=""
                 className="h-full w-full object-cover object-center"
               />

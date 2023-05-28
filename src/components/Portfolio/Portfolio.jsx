@@ -1,11 +1,13 @@
 import React from "react";
 
-import { FcList, FcGrid } from "react-icons/fc";
-import { FaLink } from "react-icons/fa";
-import { AiOutlinePlus } from "react-icons/ai";
 import styled from "styled-components";
-
 import { Link } from "react-router-dom";
+
+//=================================
+import landing1 from "../../assets/portfolio/ChicCloset/landing.png";
+import landing2 from "../../assets/portfolio/Videogames/landing.png";
+
+//====================================
 
 export default function Portfolio() {
   return (
@@ -29,7 +31,7 @@ export default function Portfolio() {
             <div className="card w-84 bg-base-100 shadow-lg ml-0 xl:ml-64">
               <figure>
                 <img
-                  src="./src/assets/portfolio/ChicCloset/landing.png"
+                  src={landing1}
                   alt="chicCloset"
                   className="w-full h-auto object-cover"
                 />
@@ -53,7 +55,7 @@ export default function Portfolio() {
             <div className="card w-84 bg-base-100 shadow-lg ml-0 xl:ml-64 ">
               <figure>
                 <img
-                  src="./src/assets/portfolio/Videogames/landing.png"
+                  src={landing2}
                   alt="chicCloset"
                   className="w-full h-auto  object-cover"
                 />
