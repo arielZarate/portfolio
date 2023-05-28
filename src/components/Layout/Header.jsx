@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 
+import mi_perfil from "../../assets/ariel.jpg";
+
 import { CgMenuRound } from "react-icons/cg";
 import { IoCloseCircleOutline, IoArrowUp } from "react-icons/io5";
 import { BsFacebook, BsLinkedin, BsGithub } from "react-icons/bs";
@@ -90,7 +92,7 @@ export default function Header() {
 
             <ProfileContainer className="">
               <ProfileImage
-                src="./src/assets/ariel.jpg"
+                src={mi_perfil} //"./src/assets/ariel.jpg"
                 alt=""
                 className="rounded-full"
               />
