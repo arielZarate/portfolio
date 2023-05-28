@@ -36,7 +36,7 @@ export default function Abouts() {
 
             {/* ROW /COLUMN*/}
             {/* md:grid-cols-2 */}
-            <div className="grid grid-cols-1  gap-2">
+            <div className="grid grid-cols-1  lg:grid-cols-2 gap-2">
               <ListContainer>
                 <ul>
                   <li>
@@ -72,18 +72,18 @@ export default function Abouts() {
                 </ul>
               </ListContainer>
 
-              <div className="mr-10">
+              <div className="mr-10 ">
                 <div className=" float-left">
                   <img
                     src={perfil}
-                    className=" w-36 h-36 my-2 rounded-full"
+                    className=" w-40 h-40 my-2 rounded-full"
                     alt=""
                     style={{
                       border: "8px solid #62387a",
                     }}
                   />
                 </div>
-                <p>
+                <p className="w-100">
                   Como desarrollador fullstack, tengo experiencia en una
                   variedad de tecnologías y herramientas. Estoy especializado en
                   Node.js, Express.js, React.js, Sequelize, HTML, CSS,
@@ -106,6 +106,24 @@ export default function Abouts() {
                   pregunta, no dudes en contactarme. Estoy emocionado de seguir
                   creciendo como desarrollador y enfrentar nuevos desafíos.
                 </p>
+              </div>
+
+              <div className="float-rigth ">
+                <a
+                  href="https://www.dropbox.com/s/b1eo8sl8kbrfsjz/fullStack_ArielZarate%20%281%29.pdf?dl=1"
+                  /*  target="blank" */
+                  download
+                  className="flex items-center justify-center w-40 h-12 bg-blue-700 text-white rounded-md hover:bg-red-600 mt-5 ml-10"
+                >
+                  <svg
+                    className="w-4 h-4 mr-2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M12 13.414V3h2v10.414l2.793-2.793L18.207 12l-5.5 5.5L7.707 12l1.5-1.5z" />
+                  </svg>
+                  <span className="ml-1">Descargar CV</span>
+                </a>
               </div>
             </div>
           </div>
