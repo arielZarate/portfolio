@@ -6,6 +6,9 @@ import Resume from "../Resume/Resume";
 import Contact from "../Contact/Contact";
 import Technologies from "../Technologies/Technologies";
 
+//iamge de fondo
+import home3 from "../../assets/home3.jpg";
+
 export default function Home() {
   const textRef = useRef(false);
   useEffect(() => {
@@ -79,7 +82,7 @@ const HomeContainer = styled.div`
   position: relative;
   width: 100%;
   height: 100vh;
-  background: url("src/assets/home3.jpg");
+  background: url(${home3});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
