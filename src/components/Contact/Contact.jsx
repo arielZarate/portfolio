@@ -281,7 +281,7 @@ export default function Contact() {
 
                   <button
                     type="submit"
-                    className={`block w-full bg-indigo-700 hover:bg-indigo-900 text-white font-bold py-2 px-4 rounded ${
+                    className={`block w-full bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded ${
                       Object.keys(errors).length
                         ? "cursor-not-allowed opacity-50"
                         : ""

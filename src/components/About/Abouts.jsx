@@ -16,7 +16,6 @@ export default function Abouts() {
 
       {/* xl:ml-64 */}
       <section id="about" className="container mx-auto  my-10 ">
-        {/* sm:flex-col  lg:flex-col */}
         <div className=" flex flex-col  mx-5 ">
           <div className="ml-0 xl:ml-64">
             <h2 className="text-2xl font-bold text-sky-900">Acerca de mi</h2>
@@ -25,9 +24,8 @@ export default function Abouts() {
         </div>
 
         {/* taild */}
-        {/* flex flex-col lg:flex-row */}
+
         <div className="container  mt-5 mx-5">
-          {/* lg:ml-4 mt-4 lg:mt-0 */}
           <div className="ml-0 xl:ml-64">
             <h3 className="text-2xl">
               Ariel Zarate Desarrollador Fullstack.
@@ -36,7 +34,7 @@ export default function Abouts() {
             <p>Informacion Personal</p>
 
             {/* ROW /COLUMN*/}
-            {/* md:grid-cols-2 */}
+
             <div className="grid grid-cols-1  lg:grid-cols-2 gap-2">
               <ListContainer>
                 <ul>
@@ -73,14 +71,14 @@ export default function Abouts() {
                 </ul>
               </ListContainer>
 
-              <div className="mr-10 ">
+              <div className="mr-50 ">
                 <div className=" float-left">
                   <img
                     src={perfil}
                     className=" w-40 h-40 my-2 rounded-full"
                     alt=""
                     style={{
-                      border: "8px solid #62387a",
+                      border: "4px solid #5687c3",
                     }}
                   />
                 </div>

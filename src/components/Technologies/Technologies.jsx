@@ -46,7 +46,9 @@ export default function Technologies() {
       className="container mx-auto mt-10 p-5  bg-slate-900"
     >
       <div className="ml-0 xl:ml-64">
-        <h3 className="text-2xl font-bold text-sky-900 mx-5">Tecnologías</h3>
+        <h3 className="text-2xl font-bold text-sky-600 mx-5 ml-0">
+          Tecnologías
+        </h3>
 
         <div className="carousel my-2 ">
           <div className="flex gap-10 overflow-x-auto ">

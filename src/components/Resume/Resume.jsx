@@ -39,7 +39,7 @@ function Resume() {
                   de convertirme en un profesional.
                 </p>
                 <a href="https://www.soyhenry.com/" target="blank">
-                  <strong className="text-sky-600">www.henry.com</strong>
+                  URL: <strong className="text-green-700">www.henry.com</strong>
                 </a>
               </ResumeItem>
               <ResumeItem>
@@ -71,7 +71,8 @@ function Resume() {
                   href="https://sceu.frba.utn.edu.ar/e-learning"
                   target="blank"
                 >
-                  <strong className="text-sky-600">www.utn-ba.com</strong>
+                  URL:{" "}
+                  <strong className="text-green-700">www.utn-ba.com</strong>
                 </a>
               </ResumeItem>
               <ResumeItem>
@@ -93,7 +94,8 @@ function Resume() {
                   tecnológicos y destacarse en la industria
                 </p>
                 <a href="https://www.frc.utn.edu.ar/" target="blank">
-                  <strong className="text-sky-600">www.utn-frc.com</strong>
+                  URL:{" "}
+                  <strong className="text-green-700">www.utn-frc.com</strong>
                 </a>
               </ResumeItem>
             </div>
