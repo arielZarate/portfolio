@@ -5,7 +5,7 @@ import Footer from "../../Layout/Footer";
 import mercadopago from "../../../assets/portfolio/ChicCloset/mercado_pago.png";
 import colaboradores from "../../../assets/portfolio/ChicCloset/colaboradores.png";
 import landing from "../../../assets/portfolio/ChicCloset/landing.png";
-import home1 from "../../../assets/portfolio/ChicCloset/home.png";
+import frente from "../../../assets/portfolio/ChicCloset/frente.png";
 
 //===================================
 
@@ -63,7 +63,7 @@ export default function DetailChicCloset() {
 
             <div className="aspect-h-5 aspect-w-4 lg:aspect-h-4 lg:aspect-w-3 sm:overflow-hidden sm:rounded-lg">
               <img
-                src={home1}
+                src={frente}
                 alt=""
                 className="h-full w-full object-cover object-center"
               />
