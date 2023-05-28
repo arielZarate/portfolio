@@ -7,7 +7,7 @@ import { BsFacebook, BsLinkedin, BsGithub } from "react-icons/bs";
 import { SiInstagram } from "react-icons/si";
 /* import { AiFillGoogleCircle, AiFillTwitterCircle } from "react-icons/ai"; */
 import NavBar from "./NavBar";
-import Footer from "./FooterNav";
+
 import FooterNav from "./FooterNav";
 
 export default function Header() {
@@ -90,7 +90,7 @@ export default function Header() {
 
             <ProfileContainer className="">
               <ProfileImage
-                src="src/assets/ariel.jpg"
+                src="./src/assets/ariel.jpg"
                 alt=""
                 className="rounded-full"
               />
