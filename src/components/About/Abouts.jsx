@@ -108,7 +108,7 @@ export default function Abouts() {
               {/*
                   //https://www.dropbox.com/scl/fi/qe00mttnuahc6ny1olijv/fullstack_ArielZarate2024.pdf?dl=1
 
-"https://www.dropbox.com/s/b1eo8sl8kbrfsjz/fullStack_ArielZarate%20%281%29.pdf?dl=1" 
+                  "https://www.dropbox.com/s/b1eo8sl8kbrfsjz/fullStack_ArielZarate%20%281%29.pdf?dl=1" 
                 */}
               <div className="float-rigth ">
                 <a
