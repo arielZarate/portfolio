@@ -132,7 +132,7 @@ export default function Contact() {
               </InfoContainer>
             </div>
 
-            <ContainerContact className="items-stretch bg-white">
+            <ContainerContact className="items-stretch ">
               <form ref={form} onSubmit={handleSubmit(sendEmail)}>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 mb-4">
                   <div className="col-span-1">
@@ -179,7 +179,7 @@ export default function Contact() {
                         name="email"
                         type="email"
                         autoComplete="email"
-                        className="block w-full rounded py-1.5  text-gray-900 shadow-sm  border border-gray-300   focus:outline-none focus:border-sky-700  sm:text-sm sm:leading-6"
+                        className="block w-full rounded py-1.5 bg-white text-gray-900 shadow-sm  border border-gray-300   focus:outline-none focus:border-sky-700  sm:text-sm sm:leading-6"
                         {...register("email", {
                           required: true,
                           pattern: emailRegex, // Validación del correo electrónico
@@ -210,7 +210,7 @@ export default function Contact() {
                       name="asunt"
                       id="asunt"
                       autoComplete=""
-                      className="block w-full rounded py-1.5  text-gray-900 shadow-sm  border border-gray-300   focus:outline-none focus:border-sky-700  sm:text-sm sm:leading-6"
+                      className="block w-full rounded py-1.5 bg-white text-gray-900 shadow-sm  border border-gray-300   focus:outline-none focus:border-sky-700  sm:text-sm sm:leading-6"
                       {...register("asunt", {
                         required: true,
                         minLength: 3, // Longitud mínima del nombre
@@ -245,7 +245,7 @@ export default function Contact() {
                       id="message"
                       name="message"
                       rows={5}
-                      className="block w-full rounded py-1.5  text-gray-900 shadow-sm  border border-gray-300   focus:outline-none focus:border-sky-700  sm:text-sm sm:leading-6"
+                      className="block w-full rounded py-1.5 bg-white text-gray-900 shadow-sm  border border-gray-300   focus:outline-none focus:border-sky-700  sm:text-sm sm:leading-6"
                       defaultValue=""
                       placeholder="Escribe tu mensaje de texto por favor..."
                       {...register("message", {
