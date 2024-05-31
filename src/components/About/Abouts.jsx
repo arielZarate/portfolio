@@ -22,7 +22,7 @@ export default function Abouts() {
           </div>
         </div>
 
-        <div className="container  mt-5 mx-5">
+        <div className="container mt-5 mx-1 px-3 ">
           <div className="ml-0 xl:ml-64">
             <h3 className="text-2xl">
               Ariel Zarate{/* Web Front-End &amp; Back-End */}

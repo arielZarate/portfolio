@@ -132,7 +132,7 @@ export default function Contact() {
               </InfoContainer>
             </div>
 
-            <ContainerContact className="items-stretch">
+            <ContainerContact className="items-stretch bg-white">
               <form ref={form} onSubmit={handleSubmit(sendEmail)}>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 mb-4">
                   <div className="col-span-1">

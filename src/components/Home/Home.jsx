@@ -21,7 +21,7 @@ export default function Home() {
     const typeText = () => {
       if (currentIndex === text.length) {
         clearTimeout(timeout);
-        setTimeout(resetText, 5000);
+        setTimeout(resetText, 3000);
         return;
       }
 
@@ -40,6 +40,7 @@ export default function Home() {
 
     return () => clearTimeout(timeout);
   }, []);
+
   return (
     <>
       {/* ======= Hero Section o home======= */}
@@ -47,9 +48,11 @@ export default function Home() {
       <HomeContainer id="home">
         <section className="flex flex-col justify-center items-center flex-nowrap h-full">
           <TextContainer>
-            <H1 className="">Ariel Zarate</H1>
-            <p className="text-2xl font-sans font-bold text-white ml-2">
-              Yo soy
+            <h1 className="text-white text-3xl md:text-5xl font-bold">
+              Ariel Zarate
+            </h1>
+
+            <p className="text-xl  md:text-2xl font-sans font-bold text-white ml-2">
               <span
                 ref={textRef}
                 className="ml-2 text-white pb-2 tracking-wide"
@@ -99,12 +102,4 @@ const TextContainer = styled.div`
   top: 50%;
   left: calc(50%); /* Ajusta el valor de 64px según el ancho de tu sidebar */
   transform: translate(-50%, -50%);
-`;
-
-const H1 = styled.h1`
-  font-size: 40px;
-  font-weight: 800;
-  line-height: 56px;
-  color: #fff;
-  margin-bottom: 10px;
 `;
