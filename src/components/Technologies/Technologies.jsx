@@ -6,7 +6,7 @@ import {
   FaDatabase,
   FaJava,
 } from "react-icons/fa";
-import { DiJavascript1, DiMongodb, DiJava } from "react-icons/di";
+import { DiJavascript1, DiMongodb } from "react-icons/di";
 import {
   SiNetlify,
   SiPostgresql,

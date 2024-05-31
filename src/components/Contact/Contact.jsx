@@ -3,7 +3,7 @@ import { AiOutlineEnvironment, AiOutlineMail } from "react-icons/ai";
 import { BiMobileAlt } from "react-icons/bi";
 //=======react-hook-form==============
 import { useForm } from "react-hook-form";
-import React, { useRef } from "react";
+import { useRef } from "react";
 
 //=========EmailJS==========
 
@@ -32,7 +32,7 @@ export default function Contact() {
     reset,
   } = useForm();
 
-  const sendEmail = (data) => {
+  const sendEmail = () => {
     // data.preventDefault();
 
     emailjs.sendForm(service_id, template_id, form.current, public_key).then(
@@ -134,7 +134,7 @@ export default function Contact() {
 
             <ContainerContact className="items-stretch">
               <form ref={form} onSubmit={handleSubmit(sendEmail)}>
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 mb-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 mb-4">
                   <div className="col-span-1">
                     <label
                       htmlFor="name"

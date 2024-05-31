@@ -104,6 +104,7 @@ export default function DetailGames() {
                   <a
                     href="https://github.com/arielZarate/pi-games"
                     target="_blank"
+                    rel="noreferrer"
                     className="underline text-sky-800 font-semibold"
                   >
                     GitHub Project

@@ -1,11 +1,9 @@
-import React, { useState } from "react";
-
-import { BiBookContent, BiServer, BiEnvelope } from "react-icons/bi";
+import { BiBookContent, BiEnvelope } from "react-icons/bi";
 import { IoLogoNodejs } from "react-icons/io5";
 import { AiOutlineHome, AiOutlineUser, AiOutlineFile } from "react-icons/ai";
 import { styled } from "styled-components";
 
-export default function NavBar({ onClose }) {
+export default function NavBar() {
   const handleSmoothScroll = (e) => {
     e.preventDefault();
     const target = e.currentTarget.getAttribute("href");
@@ -56,11 +54,7 @@ export default function NavBar({ onClose }) {
             </li>
 
             <li className="">
-              <a
-                href="#Technologies"
-                className="gap-2"
-                onClick={handleSmoothScroll}
-              >
+              <a href="#Skills" className="gap-2" onClick={handleSmoothScroll}>
                 <IoLogoNodejs className="icon text-3xl" />
                 <span>Tecnologias</span>
               </a>

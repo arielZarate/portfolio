@@ -1,19 +1,20 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { styled } from "styled-components";
 import Abouts from "../About/Abouts";
 import Portfolio from "../Portfolio/Portfolio";
 import Resume from "../Resume/Resume";
 import Contact from "../Contact/Contact";
-import Technologies from "../Technologies/Technologies";
+//import Technologies from "../Technologies/Technologies";
 
 //iamge de fondo
 import home3 from "../../assets/home3.jpg";
+import Skill from "../Skill/Skill";
 
 export default function Home() {
   const textRef = useRef(false);
   useEffect(() => {
     const textElement = textRef.current;
-    const text = "Desarrollador Web Fullstack";
+    const text = "Desarrollador fullstack";
     let currentIndex = 0;
     let timeout;
 
@@ -70,7 +71,8 @@ export default function Home() {
       <Abouts />
       <Resume />
       <Portfolio />
-      <Technologies />
+      {/*   <Technologies /> */}
+      <Skill />
       <Contact />
     </>
   );
