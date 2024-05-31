@@ -106,13 +106,12 @@ export default function Abouts() {
               </div>
 
               {/*
-                  //https://www.dropbox.com/scl/fi/qe00mttnuahc6ny1olijv/fullstack_ArielZarate2024.pdf?dl=1
-
-                  "https://www.dropbox.com/s/b1eo8sl8kbrfsjz/fullStack_ArielZarate%20%281%29.pdf?dl=1" 
+                 
                 */}
               <div className="float-rigth ">
                 <a
-                  href="https://www.dropbox.com/scl/fi/qe00mttnuahc6ny1olijv/fullstack_ArielZarate2024.pdf?dl=1"
+                  href="https://www.dropbox.com/scl/fi/qe00mttnuahc6ny1olijv/fullstack_ArielZarate2024.pdf?rlkey=lby2vm27bcp2wipw8y3s9meg2&st=bicegozc&dl=1
+"
                   /*  target="blank" */
                   download
                   className="flex items-center justify-center w-40 h-12 bg-blue-700 text-white rounded-md hover:bg-red-600 mt-5 ml-10 hover:transition-all duration-300"
