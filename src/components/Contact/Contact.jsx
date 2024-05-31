@@ -148,7 +148,7 @@ export default function Contact() {
                         name="name"
                         id="name"
                         autoComplete=""
-                        className="block w-full rounded py-1.5  text-gray-900 shadow-sm  border border-gray-300   focus:outline-none focus:border-sky-700 sm:text-sm sm:leading-6"
+                        className="block w-full rounded py-1.5 bg-white text-gray-900 shadow-sm  border border-gray-300   focus:outline-none focus:border-sky-700 sm:text-sm sm:leading-6"
                         {...register("name", {
                           required: true,
                           minLength: 4, // Longitud mínima del nombre
