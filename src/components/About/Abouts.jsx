@@ -86,17 +86,16 @@ export default function Abouts() {
                 </p>
                 <p className="w-100">
                   Valoro el trabajo en equipo y la colaboración, disfrutando de
-                  contribuir con mi experiencia y aprender de mis compañeros.
-                  Tengo la habilidad de comunicarme efectivamente y entender los
-                  requisitos del proyecto para ofrecer soluciones eficientes y
-                  de alta calidad.
+                  contribuir con mi experiencia en equipos. Tengo la habilidad
+                  de comunicarme efectivamente y entender los requisitos del
+                  proyecto para ofrecer soluciones eficientes y de alta calidad.
                 </p>
                 <p className="w-100">
                   Mi objetivo es crear aplicaciones web intuitivas, escalables y
                   de alto rendimiento que brinden una gran experiencia de
-                  usuario. Estoy constantemente aprendiendo y actualizando mis
-                  conocimientos para mantenerme al día con las últimas
-                  tendencias en desarrollo web.
+                  usuario. Estoy constantemente actualizando mis conocimientos
+                  para mantenerme al día con las últimas tendencias en
+                  desarrollo web.
                 </p>
                 <p className="w-100">
                   Si estás interesado en colaborar o tienes alguna pregunta, no
@@ -111,8 +110,8 @@ export default function Abouts() {
               <div className="float-rigth ">
                 <a
                   href="
-                  https://www.dropbox.com/scl/fi/uxp9nm5limyb4l5fphihb/fullstack_ArielZarate.pdf?rlkey=3r5dosxua6kea7s6xcurrmzlc&st=truw6e9a&dl=1
-"
+                 https://www.dropbox.com/scl/fi/km8f0xvivgcafecpyegnn/fullstack_ArielZarate.pdf?rlkey=v2hisem9tpswrqms123p5aakg&st=6ieof9tk&dl=1
+                  "
                   /*  target="blank" */
                   download
                   className="flex items-center justify-center w-40 h-12 bg-blue-700 text-white rounded-md hover:bg-red-600 mt-5 ml-10 hover:transition-all duration-300"

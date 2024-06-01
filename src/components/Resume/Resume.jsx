@@ -9,10 +9,12 @@ function Resume() {
         <div className="flex flex-col  xl:ml-64  mx-5 my-10">
           <div>
             <h2 className="text-2xl font-bold text-sky-900">Resumen</h2>
+            {/*
             <p>
               Mis experiencias en programación y habilidades en el desarrollo de
               software
             </p>
+        */}
           </div>
 
           <div className="grid grid-col-1  sm:grid-cols-1 md:grid-cols-2 md:space-x-10  lg:grid-cols-3  lg:space-x-14  gap-y-5  gap-x-5">
