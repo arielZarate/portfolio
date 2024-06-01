@@ -142,12 +142,12 @@ export default function Contact() {
                     >
                       Nombre
                     </label>
-                    <div className=" ">
+                    <div className="name">
                       <input
                         type="text"
                         name="name"
                         id="name"
-                        autoComplete=""
+                        autoComplete="name"
                         className="block w-full rounded py-1.5 bg-white text-gray-900 shadow-sm  border border-gray-300   focus:outline-none focus:border-sky-700 sm:text-sm sm:leading-6"
                         {...register("name", {
                           required: true,
@@ -209,7 +209,7 @@ export default function Contact() {
                       type="text"
                       name="asunt"
                       id="asunt"
-                      autoComplete=""
+                      autoComplete="asunt"
                       className="block w-full rounded py-1.5 bg-white text-gray-900 shadow-sm  border border-gray-300   focus:outline-none focus:border-sky-700  sm:text-sm sm:leading-6"
                       {...register("asunt", {
                         required: true,
