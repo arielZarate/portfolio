@@ -110,7 +110,8 @@ export default function Abouts() {
                 */}
               <div className="float-rigth ">
                 <a
-                  href="https://www.dropbox.com/scl/fi/qe00mttnuahc6ny1olijv/fullstack_ArielZarate2024.pdf?rlkey=lby2vm27bcp2wipw8y3s9meg2&st=bicegozc&dl=1
+                  href="
+                  https://www.dropbox.com/scl/fi/uxp9nm5limyb4l5fphihb/fullstack_ArielZarate.pdf?rlkey=3r5dosxua6kea7s6xcurrmzlc&st=truw6e9a&dl=1
 "
                   /*  target="blank" */
                   download
