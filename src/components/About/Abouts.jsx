@@ -118,7 +118,7 @@ export default function Abouts() {
                 <a
                   href="https://www.dropbox.com/scl/fi/a6xksri23unj53yw7490v/fullstack_ArielZarate.pdf?rlkey=w1pmbhxsdwlpf8bewou2rchjt&st=5ax00ao8&dl=1"
                   download
-                  className="flex items-center justify-center w-40 h-12 bg-blue-600 text-white rounded-md hover:bg-blue-700 mt-5 ml-10 hover:transition-all duration-300"
+                  className="flex items-center justify-center w-40 h-12 bg-blue-600 text-white rounded-md hover:bg-blue-700 mt-5 ml-1 hover:transition-all duration-300"
                 >
                   <FaDownload className="text-white text-sm" />
                   <span className="ml-1">Descargar CV pdf</span>
