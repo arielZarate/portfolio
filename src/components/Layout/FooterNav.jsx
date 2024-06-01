@@ -14,7 +14,16 @@ export default function FooterNav() {
           </div>
 
           <div className="pt-3 text-center text-sm text-white">
-            Diseñado por <span className="text-sky-500">Ariel Zarate</span>
+            Diseñado por{" "}
+            <span className="text-sky-500">
+              <a
+                href="https://github.com/arielZarate/arielZarate"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ariel Zarate
+              </a>
+            </span>
           </div>
         </ContainerFooter>
       </footer>
@@ -34,4 +43,5 @@ const ContainerFooter = styled.div`
   z-index: 9999;
 
   margin-top: 30%;
+  margin-bottom: 10%;
 `;

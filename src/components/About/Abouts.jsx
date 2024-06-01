@@ -51,17 +51,24 @@ export default function Abouts() {
                 <ul>
                   <li>
                     <FcNext className="mr-2 mt-1" />
-                    <strong>Grado developer:</strong>
-                    <span>Jr</span>
+                    <strong>Seniority: </strong>
+                    <span className="ml-1">Jr</span>
                   </li>
                   <li>
                     <FcNext className="mr-2 mt-1" />
-                    <strong>Correo:</strong> <span>arieltecnico@gmail.com</span>
+                    <strong>Correo: </strong>
+                    <span className="ml-1">arieltecnico@gmail.com</span>
                   </li>
-                  <li>
+                  {/*
+                    
+                     <li>
                     <FcNext className="mr-2 mt-1" />
-                    <strong>Freelance:</strong> <span>disponible</span>
+                    <strong>Freelance: </strong>{" "}
+                    <span className="ml-1 text-green-600 front-bold">
+                      disponible
+                    </span>
                   </li>
+                    */}
                 </ul>
               </ListContainer>
 
@@ -107,17 +114,23 @@ export default function Abouts() {
               {/*
                  
                 */}
-              <div className="float-rigth ">
+              <div className="flex ">
                 <a
-                  href="
-                 https://www.dropbox.com/scl/fi/km8f0xvivgcafecpyegnn/fullstack_ArielZarate.pdf?rlkey=v2hisem9tpswrqms123p5aakg&st=6ieof9tk&dl=1
-                  "
-                  /*  target="blank" */
+                  href="https://www.dropbox.com/scl/fi/a6xksri23unj53yw7490v/fullstack_ArielZarate.pdf?rlkey=w1pmbhxsdwlpf8bewou2rchjt&st=5ax00ao8&dl=1"
                   download
-                  className="flex items-center justify-center w-40 h-12 bg-blue-700 text-white rounded-md hover:bg-red-600 mt-5 ml-10 hover:transition-all duration-300"
+                  className="flex items-center justify-center w-40 h-12 bg-blue-600 text-white rounded-md hover:bg-blue-700 mt-5 ml-10 hover:transition-all duration-300"
                 >
-                  <FaDownload className="text-white text-md" />
-                  <span className="ml-1">Descargar CV</span>
+                  <FaDownload className="text-white text-sm" />
+                  <span className="ml-1">Descargar CV pdf</span>
+                </a>
+
+                <a
+                  href="https://www.dropbox.com/scl/fi/huhn4a64yzgpmeo9xb2rs/fullstack_ArielZarate.docx?rlkey=c5kv00ms9djnqt4s6bbl13s8k&st=w4tvltgt&dl=1"
+                  download
+                  className="flex items-center justify-center w-40 h-12 bg-red-600 text-white rounded-md hover:bg-red-700 mt-5 ml-5 hover:transition-all duration-300 "
+                >
+                  <FaDownload className="text-white text-sm " />
+                  <span className="ml-1 ">Descargar CV docx</span>
                 </a>
               </div>
             </div>
