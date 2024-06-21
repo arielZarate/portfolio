@@ -5,6 +5,7 @@ import styled from "styled-components";
 //=========================
 
 import perfil from "../../assets/ariel.jpg";
+import { Link } from "react-router-dom";
 
 export default function Abouts() {
   return (
@@ -118,20 +119,17 @@ export default function Abouts() {
                 <a
                   href="https://www.dropbox.com/scl/fi/a6xksri23unj53yw7490v/fullstack_ArielZarate.pdf?rlkey=w1pmbhxsdwlpf8bewou2rchjt&st=5ax00ao8&dl=1"
                   download
-                  className="flex items-center justify-center w-40 h-12 bg-blue-600 text-white rounded-md hover:bg-blue-700 mt-5 ml-1 hover:transition-all duration-300"
+                  className="flex items-center justify-center w-40 h-12 bg-red-500 text-white rounded-md hover:bg-blue-700 mt-5 ml-1 hover:transition-all duration-300"
                 >
                   <FaDownload className="text-white text-sm" />
                   <span className="ml-1">Descargar CV pdf</span>
                 </a>
 
-                <a
-                  href="https://www.dropbox.com/scl/fi/huhn4a64yzgpmeo9xb2rs/fullstack_ArielZarate.docx?rlkey=c5kv00ms9djnqt4s6bbl13s8k&st=w4tvltgt&dl=1"
-                  download
-                  className="flex items-center justify-center w-40 h-12 bg-red-600 text-white rounded-md hover:bg-red-700 mt-5 ml-5 hover:transition-all duration-300 "
-                >
-                  <FaDownload className="text-white text-sm " />
-                  <span className="ml-1 ">Descargar CV docx</span>
-                </a>
+                <Link to={"/curriculum"}>
+                  <a className="flex items-center justify-center w-40 h-12 p-1 border border-slate-300   rounded-md hover:border-2 hover:border-slate-500    mt-5 ml-5 hover:transition-all duration-300 shadow-md ">
+                    <span className="ml-1 ">Ver CV online</span>
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
