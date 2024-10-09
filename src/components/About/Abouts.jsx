@@ -125,11 +125,26 @@ export default function Abouts() {
                   <span className="ml-1">Descargar CV pdf</span>
                 </a>
 
+                {/*  
+                
+                //esto me llevaba a un nuevo componente , lo elimine y lo mande directo desde aca
+                
                 <Link to={"/curriculum"}>
                   <a className="flex items-center justify-center w-40 h-12 p-1 border border-slate-300   rounded-md hover:border-2 hover:border-slate-500    mt-5 ml-5 hover:transition-all duration-300 shadow-md ">
                     <span className="ml-1 ">Ver CV online</span>
                   </a>
-                </Link>
+                </Link> */}
+
+                <div>
+                  <a
+                    href="https://www.dropbox.com/scl/fi/4szp69sqpwb8j3br5xbmt/arielZarate_cv.pdf?rlkey=0yvlx4yuec9b1t9net9r62y04&st=0w7czxel&dl=0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center w-40 h-12 p-1 border border-slate-300   rounded-md hover:border-2 hover:border-slate-500  hover:shadow-2xl  mt-5 ml-5 hover:transition-all duration-300 shadow-md "
+                  >
+                    <span className="ml-1 ">Ver CV online</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
