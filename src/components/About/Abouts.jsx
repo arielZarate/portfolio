@@ -117,7 +117,7 @@ export default function Abouts() {
                 */}
               <div className="flex ">
                 <a
-                  href="https://www.dropbox.com/scl/fi/a6xksri23unj53yw7490v/fullstack_ArielZarate.pdf?rlkey=w1pmbhxsdwlpf8bewou2rchjt&st=5ax00ao8&dl=1"
+                  href="https://www.dropbox.com/scl/fi/iygmqc2e97ssvwe8xo530/fullstack_ArielZarate.pdf?rlkey=e8s2u0retzoqjsp7saxj0oe9w&st=6t29fp6b&dl=1"
                   download
                   className="flex items-center justify-center w-40 h-12 bg-red-500 text-white rounded-md hover:bg-blue-700 mt-5 ml-1 hover:transition-all duration-300"
                 >
